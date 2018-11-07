@@ -12,12 +12,7 @@ install:
 script:
   - npm test
 deploy:
-  matrix:
-    - provider: heroku
-      api_key:
-        secure: Key
-      app:
-        master: personal-website
+  provider: heroku
+  app: personal-website
   api_key:
-    secure:
-      secure: BCc4Okt8V8aa+UGzGT3jU2318zXDr4fcBRL7+FsPqk0FRhagNeKKy3zoq3dgMGvfb4geEcQE2RjLVHd+L+EhnHPVeV9HZ0bVzrk68IUfBvezV1pM2e/xkoPZwo/EuOg7YmXJhdGLtIuQ6oyJd25Tq046V23jxFe5LSLt/cd0SGxZJEeltJSW+CoVaMkwcaAhec8lLgKXJRBA8HNOhzDgVN8LhTXPEobCYnjCA0i4xl307xCyaCc8aUL//ybKXdJrcl+ZWKptaUDXpkVNrXjmxBgmVzAvA5UU7pwQkWbM7lBQy2O+G2wBtGjAQnNz4rkLO9gqsR9mvXisgoMcHYNw0CN8aGfuR+1Ko4UmwrhtcpLWNvnLtUFM5knduLFJJ8wez5D1gvA/eiWBjKb1i4es1qxgqobjcyV50xA9vWJObNUZfhD2xEwEh+YCZ54S5Es+YkGia26zbiyg2RM1dfMOFc90pJ+OQ4O6JAm4SuStxg8s24rqtML5ib+WjUq+g2ynewCFeyng43Sx7yPHiGRHpneUw1JDctzNQdyZAGVrnsdaSFPAWUCATEUHa8tJysTYBs6hyWYw6lgA9mxnVZTTFSUQqpQ5Srf9tv/fnROiAtfmDkvSgm30I6/n4ddcrW30kUHw6qcbz7QYSUaKb3zah2e80+VTvrIe5oo1YoB9nWA=
+    secure: gIu1aSrA4amI8PtR4lu+OTHnRMMBaS/afxC9uaHKkmTEuqqf1bPIv2hRrLOyPnHLIvnkI2kSMVWl7P21XkY3M0C94tbFCmakC3AEPKiq9qPLw9c9MFEYEavEL7eL15CqC6WKhxrZqijDvqeCm7+EkEIL+y3TtO+ymFCbShYkwaF4edmQIkFU0Y8ANzokB1luzUlXuiAxoLMGf4Aun/wgG5LaCYV1KyMbVQE7/2hR4GSFm7RYWBnSvbwk7A5kBH1Kh3wZRJVzD8d4psC4bFtpeCvuShyIAvnvALzKlJaVWiEy6tdBcaxb0tgxI9Y8PCoweUhIIKzE+KnLTKdM9XED97Uhuenu/lkrfi4G+jBV2HEsMH8njCXY3bUmITaTMr0iGjvjug6RmMNjBNkvsZaGCN8AVVmcdZ+HkPYErSLoj8AxBnozdvpAtHTdrTrLDHI1tOryjYs+IWwoKzFIE447Tq9vqpWF8cgfP9ngV2Q0kM4FnYy/MM9Yo2xjk6t/r7BBjnUTaWbZlQN0KuDvSDSkOxnlHUIuielGSf2gGhxKSLrI9818ClSX3hgm1bN3ogpIwF2fJ+oU69ZO37kBo8LV46a1AKoFbZX4SpFhVj+V9DogRhi0nF4sXvAHfdbHwjCa4f1xFrtWyRCOh5AiF3LpFkqRI2fRmV2paXd38BYXjpY=
