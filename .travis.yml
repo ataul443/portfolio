@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "node"
+  - node
 git:
   depth: 1
 branches:
@@ -9,6 +9,15 @@ branches:
     - stage
 install:
   - npm install
-
 script:
   - npm test
+deploy:
+  matrix:
+    - provider: heroku
+      api_key:
+        secure: Key
+      app:
+        master: personal-website
+  api_key:
+    secure:
+      secure: BCc4Okt8V8aa+UGzGT3jU2318zXDr4fcBRL7+FsPqk0FRhagNeKKy3zoq3dgMGvfb4geEcQE2RjLVHd+L+EhnHPVeV9HZ0bVzrk68IUfBvezV1pM2e/xkoPZwo/EuOg7YmXJhdGLtIuQ6oyJd25Tq046V23jxFe5LSLt/cd0SGxZJEeltJSW+CoVaMkwcaAhec8lLgKXJRBA8HNOhzDgVN8LhTXPEobCYnjCA0i4xl307xCyaCc8aUL//ybKXdJrcl+ZWKptaUDXpkVNrXjmxBgmVzAvA5UU7pwQkWbM7lBQy2O+G2wBtGjAQnNz4rkLO9gqsR9mvXisgoMcHYNw0CN8aGfuR+1Ko4UmwrhtcpLWNvnLtUFM5knduLFJJ8wez5D1gvA/eiWBjKb1i4es1qxgqobjcyV50xA9vWJObNUZfhD2xEwEh+YCZ54S5Es+YkGia26zbiyg2RM1dfMOFc90pJ+OQ4O6JAm4SuStxg8s24rqtML5ib+WjUq+g2ynewCFeyng43Sx7yPHiGRHpneUw1JDctzNQdyZAGVrnsdaSFPAWUCATEUHa8tJysTYBs6hyWYw6lgA9mxnVZTTFSUQqpQ5Srf9tv/fnROiAtfmDkvSgm30I6/n4ddcrW30kUHw6qcbz7QYSUaKb3zah2e80+VTvrIe5oo1YoB9nWA=
