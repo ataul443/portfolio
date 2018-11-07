@@ -13,6 +13,6 @@ script:
   - npm test
 deploy:
   provider: heroku
-  app: personal-website
+  app: ataul443
   api_key:
     secure: Pv6kmLc1NmT1Uw0XsEDSHQBJrZ4lp/h9frvtCFqsVg++95xWIKEvpGkSU3fTd7ziU6Q0OLpsAsDlqN8yQkmNWHJRqaKRTM2sWJ6cGwyVH2z/JGfL/o7N0LbXaJT7gj6fAw/EybBHU7gqpILrwUX9vQBXP+PPdnlbwOHPQ3B8qzO7rzk7xE4tM3qi4+ohVHhr1TeVma3SZtzCyoihH8AT/ukPnRVN5sZHMyMUPm8fCAzeTpvR+ajRMHjN+XPqoi+ScVYIt7/sEyGSOyAPrgBUvJK+78VH101vvMD+QS9ICHIqvR+x2AiDbZ+ngQhXz6I2vNugNFGB+OvQ+/DUeCYy8eGbekU0lct//geYrrvpFTx1jGGQGcREn2YdiPSml18P9KOyGslLoSe+v3giG9NBbaH/lCHv50Y9FcT5ZxbR1ZAeM1Pn5b5K8Gecp0ZXcXDlok5Bs9yLO6HkJzg+2B0D1C4H0yBw1MgQCfJb3cDgUja4KrM4MnJJYDWyVzq+VJnnNpdPlN5ruvYbrQxgBZd+UoJphA0EWX4YbkhFPQPUtEPbKB29bwdIbc1jjpK9CimxQzuzOf2J5tgCeyKfIaArr9pidNxzVrbBD1Hzj1KIuh2iFeMWyRbKbSJHmYwA6rtOAGo41NoUpuYqajG4gZB6JVk/xWjq0A11ravQS4e+5+I=
