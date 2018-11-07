@@ -25,7 +25,7 @@ export default {
   data: function data() {
     return {
       user: {
-        name: "Sunil Sharma",
+        name: "Dev Shekh",
         role: "Software Developer"
       }
     };
