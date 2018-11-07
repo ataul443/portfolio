@@ -9,7 +9,8 @@
     "start": "npm run server",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js",
-    "server": "node server.js"
+    "server": "node server.js",
+    "test": "eslint **/*.js --ignore-pattern 'node_modules/' --ignore-pattern 'tests/' --ignore-pattern 'build/' --ignore-pattern 'dist/'"
   },
   "husky": {
     "hooks": {
