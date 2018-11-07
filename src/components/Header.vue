@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar is-white">
     <div class="navbar-brand">
-      <span class="brand"><strong>{{brandName | to-upper}}</strong></span>
+      <span class="brand"><strong>{{this.user.name | to-upper}}</strong></span>
       <div v-on:click="toggleMenu()"
            v-bind:class="{ 'navbar-burger' : true,
             'is-active': burgerIsActive}">
@@ -9,9 +9,7 @@
         <span area-hidden="true"></span>
         <span area-hidden="true"></span>
       </div>
-    </div>export default {
-    name: 'Banner.vue'
-  }
+    </div>
 
     <div v-bind:class="{'navbar-menu': true,
      'is-active': burgerIsActive}">
@@ -31,14 +29,15 @@
 <script>
 export default {
   name: "Header",
+  props: {
+    user: Object
+  },
   data: function data() {
     return {
-      brandName: "Shekh Ataul",
       links: [
-        { tag: "Home", link: "/" },
+        { tag: "Blog", link: "/" },
         { tag: "Projects", link: "/projects" },
-        { tag: "About", link: "/about" },
-        { tag: "Contact", link: "/contact" }
+        { tag: "Photos", link: "/about" }
       ],
       burgerIsActive: false
     };
@@ -59,19 +58,19 @@ export default {
 
 <style scoped>
 nav span {
-  letter-spacing: 0.3em;
+  letter-spacing: 0.2rem;
   font-family: "Montserrat", sans-serif;
 }
 
 .brand {
-  margin: auto 10px;
-  font-size: 16px;
+  margin: auto 0.62rem;
+  font-size: 1rem;
 }
 
 a span {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: bold;
-  padding: 5px;
+  padding: 0.31rem;
 }
 a span:hover {
   color: #0c66a1;
