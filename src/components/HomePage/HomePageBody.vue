@@ -14,11 +14,7 @@
             leave not a single stone unturned no matter how difficult the
             challenge is.
               <hr/>
-              <p>I enjoy the approach more than the technicality
-            required to solve the problem, which enables me to solve big problems
-             by decomposing into practically small ones and then solving them which
-                ultimately leads me to the solution for the big problem.</p>
-            <hr/>
+
 
             <p>I've been offering my Full-Stack developer skills to <router-link to="//www.fiverr.com/shekhataul170" title="Fiverr" target="_blank">Fiverr</router-link> for
             past 6 months. I am keenly interested in <router-link to="//en.wikipedia.org/wiki/Blockchain" title="Blockhain" target="_blank">Blockchain</router-link> and
