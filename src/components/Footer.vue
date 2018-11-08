@@ -35,6 +35,7 @@ export default {
 .content-container {
   display: flex;
   justify-content: space-between;
+  padding-right: 1.12rem;
 }
 .contact-links-adjust {
   margin: -3px 0 0 0;

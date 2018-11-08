@@ -34,11 +34,7 @@ export default {
   },
   data: function data() {
     return {
-      links: [
-        { tag: "Blog", link: "/" },
-        { tag: "Projects", link: "/projects" },
-        { tag: "Photos", link: "/about" }
-      ],
+      links: [{ tag: "Blog", link: "/" }, { tag: "Resume", link: "#" }],
       burgerIsActive: false
     };
   },
