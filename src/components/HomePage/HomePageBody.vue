@@ -10,7 +10,7 @@
 
             <p>I'm an engineering student pursuing my B.Tech in Computer Science
             right now. I hold a rational mindset and a thrive to solve real
-            world problems my resolute nature pushes me to
+            world problems. My resolute nature pushes me to
             leave not a single stone unturned no matter how difficult the
             challenge is.
               <hr/>
