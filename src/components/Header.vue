@@ -18,6 +18,7 @@
           v-for="link in links"
           v-bind:key="link.tag"
           v-bind:to="'//' + link.link"
+          target="_blank"
           class="navbar-item">
           <span>{{link.tag | to-upper}}</span>
         </router-link>
