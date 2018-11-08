@@ -36,5 +36,18 @@ export default {
 <style>
 html {
   font-size: 16px;
+  width: 100vw;
+  height: 100vh;
+}
+.columns {
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .columns {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+    margin-top: -0.75rem;
+  }
 }
 </style>
