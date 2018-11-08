@@ -3,7 +3,7 @@
     <div class="hero-body">
       <div class="container has-text-centered">
         <figure class="image is-128x128" style="margin: 0 auto;">
-          <img src="../assets/profile.jpeg" v-bind:alt="user" class="is-rounded profile-image"></figure>
+          <img src="../../assets/profile.jpeg" v-bind:alt="user" class="is-rounded profile-image"></figure>
         <h1 class="big-title">{{user.name}}</h1>
         <h2 class="big-subtitle">{{user.role}}</h2>
       </div>

@@ -2,7 +2,7 @@
   <div class="footer foot-container">
     <div class="content content-container">
       <p class="foot-tag">
-        Made by Shekh Ataul &#9829;
+        Made by {{user.name}} &#9829;
       </p>
 
       <contact-links class="contact-links-adjust" v-bind:size="''" v-bind:platform="false"></contact-links>
@@ -14,6 +14,9 @@
 import ContactLinks from "./ContactLinks";
 export default {
   name: "Footer",
+  props: {
+    user: Object
+  },
   components: {
     "contact-links": ContactLinks
   }

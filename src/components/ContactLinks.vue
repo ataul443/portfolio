@@ -21,12 +21,12 @@ export default {
   data: function data() {
     return {
       links: [
-        { platform: "Github", link: "www.github.com/ataul443" },
+        { platform: "Github", link: "https://github.com/ataul443" },
         { platform: "Email", link: "mailto:ataul.one@gmail.com" },
-        { platform: "Facebook", link: "https://www.facebook.com/dev.shekh21" },
+        { platform: "Facebook", link: "https://facebook.com/dev.shekh21" },
         {
           platform: "Linkedin",
-          link: "https://www.linkedin.com/in/shekh-ataul-383512143"
+          link: "https://linkedin.com/in/shekh-ataul-383512143"
         }
       ]
     };
