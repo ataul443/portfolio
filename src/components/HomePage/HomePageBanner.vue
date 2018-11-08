@@ -2,10 +2,16 @@
   <section class="hero content-container">
     <div class="hero-body">
       <div class="container has-text-centered">
-        <figure class="image is-128x128" style="margin: 0 auto;">
-          <img src="../../assets/profile.jpeg" v-bind:alt="user" class="is-rounded profile-image"></figure>
-        <h1 class="big-title">{{user.name}}</h1>
+        <router-link to="/">
+          <figure class="image is-128x128" style="margin: 0 auto;">
+            <img src="../../assets/profile.jpeg" v-bind:alt="user" class="is-rounded profile-image"></figure>
+        </router-link>
+        <router-link to="/">
+          <h1 class="big-title">{{user.name}}</h1>
+        </router-link>
         <h2 class="big-subtitle">{{user.role}}</h2>
+        <p class="usp pad">Approach to solve a problem matters more to me,</p>
+        <p class="usp">than the actual technical fix</p>
       </div>
     </div>
   </section>
@@ -41,6 +47,7 @@ export default {
 .big-title {
   font-size: 3rem;
   letter-spacing: 0.16rem;
+  color: #4a4a4a;
 }
 
 .big-title:hover {
@@ -48,7 +55,15 @@ export default {
 }
 .big-subtitle {
   font-size: 1.5rem;
-  color: #aaaaaa;
+  color: #7b7b7b;
   letter-spacing: 0.16px;
+}
+.usp {
+  font-family: "Merriweather", Serif;
+  font-size: 1rem;
+  color: #989898;
+}
+.pad {
+  padding-top: 0.62rem;
 }
 </style>

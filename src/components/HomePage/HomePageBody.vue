@@ -3,19 +3,36 @@
     <div class="container">
 
       <div class="columns body-container">
-        <div class="column is-offset-3 is-4 is-flex vertical-items">
+        <div class="column is-offset-1 is-6 is-flex vertical-items">
           <span class="body-title">About me</span>
 
           <span class="about-content">
-          {{user.name}} loves programming, writing, speaking, traveling, and
-        lifting heavy things. He does not love talking about himself in the
-        3rd person. He is the co-founder of Gruntwork, a company that provides
-        DevOps as a Service. He's also the author of two books published by
-        O'Reilly Media: Hello, Startup and Terraform: Up & Running. Previously,
-        he worked as a software engineer at LinkedIn, TripAdvisor, Cisco
-        Systems, and Thomson Financial and got his BS and Masters at Cornell
-        University. For more info, check out his writing, speaking, projects,
-        and photos.
+
+            <p>I'm an engineering student pursuing my B.Tech in Computer Science
+            right now. I hold a rational mindset and a thrive to solve real
+            world problems my audacious and undaunted nature pushes me to
+            leave not a single stone unturned no matter how difficult the
+            challenge is.
+              <hr/>
+              <p>I adore the approach more than the technicality
+            required to solve the problem enabling me to resolve big problems
+            into practically small rectifiable ones and hence dissolving the
+            parent problem.</p>
+            <hr/>
+
+            <p>I've been proffering my Full-Stack developer skills to <router-link to="//www.fiverr.com/shekhataul170" title="Fiverr" target="_blank">Fiverr</router-link> for
+            past 6 months. I am keenly interested in <router-link to="//en.wikipedia.org/wiki/Blockchain" title="Blockhain" target="_blank">Blockchain</router-link> and
+              <router-link to="//en.wikipedia.org/wiki/Distributed_ledger" title="Distributed Ledger" target="_blank">distributed
+            ledger</router-link>. I love spending my spare time reading books and exercising my
+            personality which enables me to psychologically analyze people helping me
+            to charm out in team projects and innovating the next big together.</p>
+            <hr/>
+            <p><i>Read enough about me?</i><br>
+             <i> Let's create something impactful and big together.
+            Want me to work on something, Let's roll out then follow any the
+            below links to get connected with me on social media or drop me a
+            direct message through <router-link to="//mailto:ataul.one@gmail.com" title="ataul.one@gmail.com" target="_blank">email</router-link>.</i></p>
+
         </span>
         </div>
         <div class="column is-offset-1 is-4 is-flex vertical-items">

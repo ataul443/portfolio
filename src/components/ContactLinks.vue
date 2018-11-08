@@ -1,12 +1,12 @@
 <template>
   <div v-bind:class="getSocialContainerClass()">
 
-    <a v-for="link in links" v-bind:href="link.link" v-bind:key="link.link" v-bind:class="getSocialItemClass()">
-      <span class="icon is-medium">
-              <i v-bind:class="getIconClass(link.platform)"></i>
+    <router-link v-for="link in links" :to="'//' + link.link" target="_blank" v-bind:key="link.link" v-bind:class="getSocialItemClass()">
+      <span v-bind:title="size? '': link.platform" class="icon is-medium">
+              <i  v-bind:class="getIconClass(link.platform)"></i>
             </span>
       <span v-show="platform">{{link.platform}}</span>
-    </a>
+    </router-link>
   </div>
 
 </template>
@@ -21,12 +21,16 @@ export default {
   data: function data() {
     return {
       links: [
-        { platform: "Github", link: "https://github.com/ataul443" },
+        { platform: "Github", link: "www.github.com/ataul443" },
         { platform: "Email", link: "mailto:ataul.one@gmail.com" },
-        { platform: "Facebook", link: "https://facebook.com/dev.shekh21" },
+        { platform: "Facebook", link: "www.facebook.com/dev.shekh21" },
         {
           platform: "Linkedin",
-          link: "https://linkedin.com/in/shekh-ataul-383512143"
+          link: "www.linkedin.com/in/shekh-ataul-383512143"
+        },
+        {
+          platform: "Medium",
+          link: "www.medium.com/@ataul.one"
         }
       ]
     };
@@ -43,7 +47,7 @@ export default {
         let temp =
           "fa-" +
           platform.toLowerCase() +
-          (platform === "Linkedin" ? "" : "-square");
+          (platform === "Linkedin" || "Medium" ? "" : "-square");
         className[temp] = true;
         className[classSize] = true;
         return className;

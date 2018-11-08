@@ -1,5 +1,5 @@
 <template>
-  <home-page v-bind:user="user"></home-page>
+  <router-view v-bind:user="user"></router-view>
 </template>
 
 <script>
@@ -12,7 +12,7 @@ export default {
   data: function data() {
     return {
       user: {
-        name: "Dev Shekh",
+        name: "Shekh Ataul",
         role: "Software Developer"
       }
     };

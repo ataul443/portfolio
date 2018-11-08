@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar is-white">
     <div class="navbar-brand">
-      <span class="brand"><strong>{{this.user.name | to-upper}}</strong></span>
+      <router-link class="brand br" to="/" exact ><strong>{{this.user.name | to-upper}}</strong></router-link>
       <div v-on:click="toggleMenu()"
            v-bind:class="{ 'navbar-burger' : true,
             'is-active': burgerIsActive}">
@@ -14,13 +14,13 @@
     <div v-bind:class="{'navbar-menu': true,
      'is-active': burgerIsActive}">
       <div class="navbar-end">
-        <a
+        <router-link
           v-for="link in links"
           v-bind:key="link.tag"
-          v-bind:href="link.link"
+          v-bind:to="'//' + link.link"
           class="navbar-item">
           <span>{{link.tag | to-upper}}</span>
-        </a>
+        </router-link>
       </div>
     </div>
   </nav>
@@ -34,7 +34,10 @@ export default {
   },
   data: function data() {
     return {
-      links: [{ tag: "Blog", link: "/" }, { tag: "Resume", link: "#" }],
+      links: [
+        { tag: "Blog", link: "www.medium.com/@ataul.one" },
+        { tag: "Resume", link: "#" }
+      ],
       burgerIsActive: false
     };
   },
@@ -53,6 +56,11 @@ export default {
 </script>
 
 <style scoped>
+.br {
+  letter-spacing: 0.2rem;
+  color: #4a4a4a;
+  font-weight: bold;
+}
 nav span {
   letter-spacing: 0.2rem;
   font-family: "Montserrat", sans-serif;
