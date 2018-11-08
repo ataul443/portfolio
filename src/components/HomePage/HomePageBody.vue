@@ -10,21 +10,21 @@
 
             <p>I'm an engineering student pursuing my B.Tech in Computer Science
             right now. I hold a rational mindset and a thrive to solve real
-            world problems my audacious and undaunted nature pushes me to
+            world problems my resolute nature pushes me to
             leave not a single stone unturned no matter how difficult the
             challenge is.
               <hr/>
-              <p>I adore the approach more than the technicality
-            required to solve the problem enabling me to resolve big problems
-            into practically small rectifiable ones and hence dissolving the
-            parent problem.</p>
+              <p>I enjoy the approach more than the technicality
+            required to solve the problem, which enables me to solve big problems
+             by decomposing into practically small ones and then solving them which
+                ultimately leads me to the solution for the big problem.</p>
             <hr/>
 
-            <p>I've been proffering my Full-Stack developer skills to <router-link to="//www.fiverr.com/shekhataul170" title="Fiverr" target="_blank">Fiverr</router-link> for
+            <p>I've been offering my Full-Stack developer skills to <router-link to="//www.fiverr.com/shekhataul170" title="Fiverr" target="_blank">Fiverr</router-link> for
             past 6 months. I am keenly interested in <router-link to="//en.wikipedia.org/wiki/Blockchain" title="Blockhain" target="_blank">Blockchain</router-link> and
               <router-link to="//en.wikipedia.org/wiki/Distributed_ledger" title="Distributed Ledger" target="_blank">distributed
-            ledger</router-link>. I love spending my spare time reading books and exercising my
-            personality which enables me to psychologically analyze people helping me
+            ledger</router-link>. I love spending my spare time reading books and going to workout
+              which enables me to psychologically analyze people helping me
             to charm out in team projects and innovating the next big together.</p>
             <hr/>
             <p><i>Read enough about me?</i><br>
