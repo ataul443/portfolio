@@ -13,7 +13,7 @@ export default {
     return {
       user: {
         name: "Shekh Ataul",
-        role: "Software Developer"
+        role: "Backend Developer"
       }
     };
   }
