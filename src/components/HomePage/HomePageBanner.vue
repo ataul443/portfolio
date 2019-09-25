@@ -10,8 +10,7 @@
           <h1 class="big-title">{{user.name}}</h1>
         </router-link>
         <h2 class="big-subtitle">{{user.role}}</h2>
-        <p class="usp pad">Approach to solve a problem matters more to me,</p>
-        <p class="usp">than the actual technical fix</p>
+        <p class="usp pad">I develops sweet and efficient backend applications.</p>
       </div>
     </div>
   </section>
